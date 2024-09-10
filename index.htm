@@ -1,0 +1,1508 @@
+<!DOCTYPE html>
+<html lang=" zh-cmn-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>
+      陳擎文 Teaching Website: E-commerce
+      </title>
+      
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- jscript src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script-->
+<!-- jscript src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAp8hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script-->
+<!-- jscript src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script-->
+
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+
+<style>
+BODY
+{
+SCROLLBAR-FACE-COLOR: #CCFFCC; SCROLLBAR-HIGHLIGHT-COLOR: #C8DCFF; SCROLLBAR-SHADOW-COLOR: #434e78; COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #C8DCFF; SCROLLBAR-ARROW-COLOR: #cccccc; SCROLLBAR-TRACK-COLOR: #CCFFCC; FONT-STYLE: normal; SCROLLBAR-DARKSHADOW-COLOR: #20253a;font-size: 24px;
+}
+.purple{
+	color:#F09;	
+  font-weight: 900;
+}
+.darkpurple{
+	color:#909;
+  font-weight: 900;
+}
+.red
+{  
+  font-weight: 900;
+  color: red;
+}
+
+mark.yellow {
+	background: linear-gradient(transparent 40%,rgba(255,255,255,0) 40%, #FFF176 90%,transparent 95%);	
+    padding: 2px 1px;
+}
+mark.green {
+	background:linear-gradient(transparent 40%,rgba(255,255,255,0) 40%, #CCFF90 50%,transparent 70%);	
+    padding: 2px 1px;
+}
+mark.pink {
+	border-bottom: 3px solid #EC407A;
+	background: none;
+	margin: 0 -2px;
+	padding: 0 2px;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+</style>     
+
+
+<script>
+ function show01()
+  {
+    var collapseElementList = [].slice.call(document.querySelectorAll('.collapse'))
+    var collapseList = collapseElementList.map(function (collapseEl) 
+    {
+      return new bootstrap.Collapse(collapseEl)
+    })
+  }
+</script>
+
+  </head>
+
+
+<body style="background-color:rgb(217, 234, 235)">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">教學網站</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+
+
+                    
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              一般程式類
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="../vb_net/">vb.net</a></li>
+                <li><a class="dropdown-item" href="../cpp/">c++</a></li>
+                <li><a class="dropdown-item" href="../csharp/"">c#</a></li>
+                <li><a class="dropdown-item" href="../java/java.htm">java</a></li>
+                <li><a class="dropdown-item" href="../python/">python基礎</a></li>
+                <li><a class="dropdown-item" href="../django/">python網頁django</a></li>                    
+            </ul>
+          </li>
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              手機程式類
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li> <a class="dropdown-item" href="../appinventor/">appInventor</a></li>
+              <li> <a class="dropdown-item" href="../jquery_phoneGap/jquery_phoneGap.htm">jquery Mobile手機程式</a></li>
+              <li> <a class="dropdown-item" href="../ionic/ionic.htm">ionic＋angularJS</a></li>
+              <li> <a class="dropdown-item" href="../Bootstrap4/">Bootstrap</a></li>                
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              網頁程式類
+              </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li> <a class="dropdown-item" href="../cmedia/">實作商業資訊系統(前後端網頁)</a></li>
+                  <li> <a class="dropdown-item" href="../Ec_Asp/">用ASP實作電子商務系統</a></li>                     
+                  <li> <a class="dropdown-item" href="../html5_CSS_javascript/html5_CSS_javascript.htm">html5+CSS+javascrip</a></li>        
+                  <li> <a class="dropdown-item" href="../php/">PHP</a></li> 
+                  <li> <a class="dropdown-item" href="../django/">python網頁django</a></li>          
+                  <li> <a class="dropdown-item" href="../Bootstrap4/">Bootstrap</a></li>                    
+
+                  <li> <a class="dropdown-item" href="../web2010/webFlash.htm">基礎網頁設計</a></li>
+                  <li> <a class="dropdown-item" href="../aspnet/aspnet.htm">互動網頁程式</a></li>   
+                  <li> <a class="dropdown-item" href="../jquery_phoneGap/jquery_phoneGap.htm">jquery Mobile手機程式</a></li>
+                  <li> <a class="dropdown-item" href="../ionic/ionic.htm">ionic＋angularJS</a></li>              
+                  <li> <a class="dropdown-item" href="../digitalArchives/digitalArchives.htm">數位典藏</a></li>
+                  <li> <a class="dropdown-item" href="../multimedia/multimedia.htm">多媒體概論</a></li>
+                </ul>
+          </li> 
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              資料庫程式
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li> <a class="dropdown-item" href="../sql">SQL資料分析</a></li> 
+              <li> <a class="dropdown-item" href="../sql_emi/">SQL Database Systems and Applications(EMI)</a></li>
+
+              <li> <a class="dropdown-item" href="../database/database.htm">資料庫</a></li>  
+              <li> <a class="dropdown-item" href="../aspnet/aspnet.htm">互動網頁程式</a></li>    
+              <li> <a class="dropdown-item" href="../php/">PHP</a></li>
+              <li> <a class="dropdown-item" href="../django/">python網頁django</a></li>
+              <li> <a class="dropdown-item" href="../jquery_phoneGap/jquery_phoneGap.htm">jquery Mobile手機程式</a></li>                  
+              <li> <a class="dropdown-item" href="../digitalArchives/digitalArchives.htm">數位典藏</a></li>
+            </ul>
+          </li> 
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              AI人工智慧
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li> <a class="dropdown-item" href="../python/">python基礎</a></li>
+              <li> <a class="dropdown-item" href="../pandas/">pandas商業數據程式分析</a></li> 
+              <li> <a class="dropdown-item" href="../sql/">SQL資料分析</a></li>
+              <li> <a class="dropdown-item" href="../sql_emi/">SQL Database Systems and Applications(EMI)</a></li>
+
+              <li> <a class="dropdown-item" href="../scipy/">scipy統計數據分析</a></li> 
+              <li> <a class="dropdown-item" href="../predict/">python人工智慧在商情預測之應用</a></li> 
+              <li> <a class="dropdown-item" href="../ai_auto/">工作流程的AI自動化</a></li> 
+              <li> <a class="dropdown-item" href="../AI_Intro/">人工智慧概論(通識)</a></li>
+              <li> <a class="dropdown-item" href="../python_data/">python網絡大數據分析與爬取</a></li>               
+              <li> <a class="dropdown-item" href="../linearAlgebra/">python解線性代數</a></li>
+              <li> <a class="dropdown-item" href="../python_math/">python求解數學：高中大學數學，工程數學，微積分</a></li>  
+              <li> <a class="dropdown-item" href="../ai/">人工智慧</a></li>
+
+            </ul>
+          </li> 
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              創新經營與數位行銷
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li> <a class="dropdown-item" href="../innovation/">經營模式與科技創新</a></li>
+              <li> <a class="dropdown-item" href="../CRM">客戶關係管理</a></li>
+              <li> <a class="dropdown-item" href="../DigitalTransformation/">數位組織與轉型</a></li>
+
+             
+              <li> <a class="dropdown-item" href="../Ecommerce">電子商務</a></li>
+              <li> <a class="dropdown-item" href="../Ecommerce_emi/">Ecommerce(EMI)</a></li>
+
+
+              <li> <a class="dropdown-item" href="../GA">Google Analytics流量分析(GA)</a></li> 
+              <li> <a class="dropdown-item" href="../GTM">Google Tag Manager(GTM)代碼管理工具</a></li> 
+              <li> <a class="dropdown-item" href="../GAds">Google Ads廣告行銷</a></li> 
+              <li> <a class="dropdown-item" href="../GLookerStudio/">Google Looker Studio行銷數據視覺化</a></li> 
+
+            </ul>
+          </li> 
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ESG永續經營
+            </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li> <a class="dropdown-item" href="../busEthics/">企業倫理與永續經營</a></li> 
+
+              </ul>
+          </li> 
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              遊戲動畫程式
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li> <a class="dropdown-item" href="../unity/">Unity 3D遊戲引擎</a></li>                
+              <li> <a class="dropdown-item" href="../UnityCode/">Unity互動程式模組化設計</a></li> 
+              <li> <a class="dropdown-item" href="../ARVuforia/">Unity+Vuforia：擴增實境實作(AR)</a></li> 
+              <li> <a class="dropdown-item" href="../MRHololens/">Unity+Holelens2＋Vuforia混合實境(MR)</a></li> 
+
+              <li> <a class="dropdown-item" href="../Unity2D/">Unity2D遊戲</a></li> 
+              <li> <a class="dropdown-item" href="../CocosCreator/">Cocos Creator 2D遊戲</a></li>
+              <li> <a class="dropdown-item" href="../appinventor/">手機遊戲：App Inventor</a></li>
+              <li> <a class="dropdown-item" href="../Solar2D/">手機遊戲引擎：Solar2D</a></li>
+              <li> <a class="dropdown-item" href="../book1/">3D Flash商務網站建置(Script)</a></li>
+              <li> <a class="dropdown-item" href="../scratch/">網頁遊戲：Scratch</a></li>
+              <li> <a class="dropdown-item" href="../construct/">網頁遊戲引擎：Construct</a></li>
+            </ul>
+          </li> 
+
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+<div class="container" style="margin-top:50px;" id="mainIndex">
+<table class="table table-bordered table-condensed"  bordercolor="#dddddd" width="100%">
+
+            <tr bgcolor="#f0f0f0">
+              <td colspan="6"><div align="right"></div></td>
+            </tr>
+            <tr bgcolor="#f0f0f0">
+              <td colspan="6"><div align="center">
+                  <div align="center">陳擎文 Teaching Website: E-commerce<br>
+                    <div align="left" class="purple">
+
+                      <span class="red">☎1.【7 Types of E-commerce Development Models】:</span><br>
+                      ◉<mark class="yellow">Third-party platform sales, D2C self-built e-commerce platform,</mark><br>
+                      ◉<mark class="yellow">Social e-commerce, WeChat business,</mark><br>
+                      ◉<mark class="yellow">Subscription-based e-commerce, Dropshipping model, Affiliate marketing</mark><br>
+
+                      
+                      <br>
+
+                      <span class="red">☎2.【Common Development Paths for Taiwanese E-commerce Businesses】</span><br>
+                      ◉<mark class="yellow">
+                       (1) Initial stage, small-scale operation: Start by operating on 【Third-party e-commerce platforms: Momo, Amazon, Shopee】,
+                      </mark> Advantage: Third-party platforms can bring in traffic.<br>
+                      
+                      ◉<mark class="yellow">
+                       (2) Mid-stage, with increasing transactions and larger volumes leading to higher 【sales commission】 rates ➜ Build your own e-commerce website to 【divert traffic】.
+                      </mark> Advantage: Utilize traffic from third-party platforms to 【redirect】 customers to your own website.<br>
+                                           
+                      ◉<mark class="yellow">
+                       (3) Long-term: Once business performance is stable, focus on your 【self-built e-commerce website】 while using 【third-party e-commerce platforms (Shopee/Momo)】 as a supplement.
+                       </mark><br>
+ 
+                     <br>
+                     <span class="red">☎3.【Two E-commerce Related News】:</span><br>
+                     ◉<a href="https://tw.news.yahoo.com/%E5%8F%B0%E7%81%A3%E5%A4%9C%E5%B8%82%E5%B0%8F%E5%BA%97%E8%AE%8A%E5%84%84%E7%B4%9A%E5%A5%B3%E8%A3%9D%E7%8E%8B%E5%9C%8B%EF%BC%8C%E9%82%84%E6%8A%8A%E5%BA%97%E9%96%8B%E9%80%B2%E9%A6%AC%E5%9C%8B101%EF%BC%81-005817341.html" target="_blank">Air Space, a women's fashion e-commerce brand, becomes a billion-dollar empire through data analysis</a><br> 
+                     ◉<a href="https://tw.news.yahoo.com/%E6%96%87%E7%B5%84%E7%95%A2%E6%A5%AD%E4%BA%94%E5%B9%B4%E8%96%AA%E6%B0%B4%E6%BC%B2-%E5%80%8D-%E5%8E%9Fpo%E6%9B%9D-%E5%85%A9%E5%A4%A7%E9%97%9C%E9%8D%B5-050502249.html" target="_blank">Two key factors that enable liberal arts graduates to earn a monthly income of 100,000 after five years of work</a><br> 
+                     ◉<a href="https://tw.news.yahoo.com/%E6%99%BA%E6%85%A7%E6%96%B0%E9%9B%B6%E5%94%AEiii-%E7%AA%81%E7%A0%B4%E5%9B%B0%E5%A2%83-%E5%AF%A6%E9%AB%94%E5%BA%97%E9%9D%A2%E7%9A%84%E9%80%86%E8%BD%89%E6%AD%A6%E5%99%A8-%E6%95%B8%E6%93%9A%E6%87%89%E7%94%A8-090253421.html" target="_blank">Overcoming challenges! The turnaround weapon for brick-and-mortar stores: data application</a><br>
+
+                     <br>
+                     <span class="red">☎4.【SHEIN's Successful Business Model】:</span><br> 
+                     ◉<mark class="yellow">1. Strong Supply Chain Management: Exclusive design team and dedicated supply chain</mark><br> 
+                     ◉<mark class="yellow">2. Trendy and fast-changing styles, with new designs available online in just 3 days</mark><br> 
+                     ◉<mark class="yellow">4. Utilizes AI/Data-driven business model to predict the latest fashion trends and customer demands, and designs new products accordingly</mark><br> 
+                     ◉<mark class="yellow">5. Leverages social media, influencers, and KOLs for marketing</mark><br> 
+                     ◉<mark class="yellow">6. Massively recruits "Shein Girls" and utilizes affiliate programs for distribution</mark><br>
+                     <br>
+                     <span class="red">☎5.【The Successful Business Model of Xiaohongshu (RED)】:</span><br>
+                      ◉<mark class="yellow">1. Fully integrates the interactive functions of 【social media】 and 【e-commerce】</mark><br>
+                      ◉<mark class="yellow">2. Uses user-generated content (UGC) to recommend and share products, creating a highly trusted community shopping platform</mark><br>
+                      ◉<mark class="yellow">3. Unique UGC (tutorial-based video content) has made it a must-have search platform for young women seeking trendy information</mark><br>
+                      ◉<mark class="yellow">4. Brands leverage influencers to build "mall" profits, utilizing 【social media/influencers/KOL】 for marketing</mark><br>
+                      ◉<mark class="yellow">5. Effectively uses 【AI/data-driven business models】 to recommend products by analyzing browsing history, likes, favorites, and shared content</mark><br>
+                      <br>
+
+                      <span class="red">☎6.【The Successful Business Model of Lin Ruiyang's TST Tingmi Secret】:</span><br>
+                      ◉<mark class="yellow">1. Adopts WeChat's 【micro-business】 multi-level marketing (MLM) model</mark><br>
+                      ◉<mark class="yellow">2. O2O (Online-to-Offline) business model</mark><br>
+                      <br>
+
+                      <span class="red">☎7.【Temu's Successful Business Model】：</span><br>
+                      ◉<mark class="yellow">1. Fully Managed Business Model</mark>: Temu handles supply chain management, warehousing, logistics, and after-sales services. Merchants are only responsible for design and production.<br>
+                      ◉<mark class="yellow">2. Pricing Strategy</mark>: Implements a low-price/high cost-performance strategy, frequently offering promotional discounts. <mark class="yellow">The ability to maintain low prices is also related to the fully managed model, as it eliminates middlemen commissions, enabling direct sales at factory prices.</mark><br>
+                      ◉<mark class="yellow">3. Product Diversity, Comprehensive Department Store Model</mark><br>
+                      ◉<mark class="yellow">4. Group Purchase Mechanism</mark>: Allows for group buying or sharing invitations to reach a certain quantity for discounts, thereby reducing the selling price.<br>
+                      ◉<mark class="yellow">5. Small e-commerce platforms receive the same exposure as large ones</mark>: Temu focuses on products, not the company size. As long as the product has a high cost-performance ratio, it can receive a certain level of exposure and traffic.<br>
+                      ◉<mark class="yellow">6. Social Media Marketing and Extensive Online Advertising</mark><br>
+                      <br>
+                      <span class="red">8. Methods of Data Collection：</span><br>
+                      ◉(1). Traditional Methods: <mark class="yellow">【Surveys, Interviews】</mark><br>
+                      ◉(2). Advanced Methods: <mark class="yellow">【Website Traffic Collection and Analysis (GA), Tracking Customer Online Browsing Behavior on Webpages/Apps (GTM)】</mark><br>
+                      ◉(3). Latest Methods: <mark class="yellow">【AI-based Automated Customer Behavior Identification and Real-time Product Recommendations】</mark><br>
+                      <br>
+
+                      <span class="red">9. Methods of Quantitative Data Analysis：</span><br>
+                      ◉(1). Traditional Methods: Use <mark class="yellow">【SPSS】</mark> for statistical data analysis.<br>
+                      ◉(2). Advanced Methods: Use <mark class="yellow">【Python (Scipy)/R programming languages】</mark> for statistical data analysis.<br>
+                      ◉(3). Latest Methods: Use <mark class="yellow">【Generative AI (ChatGPT 4.0, Gemini Pro)】</mark> for statistical data analysis.<br>
+                      <br>
+
+                    </div>
+              </div></td>
+            </tr>
+            <tr bgcolor="#f0f0f0">
+              <td colspan="6"><div align="left"></div></td>
+            </tr>
+            <tr bgcolor="#f0f0f0">
+              <td colspan="6"><div align="center">
+<div align="left">
+  <p><br/>
+  <p class="text-center">
+    <button onclick="show01()" class="btn btn-danger">關閉/打開 全部章節</button>
+  </p>  
+
+
+  <p><a href="#chp0">資源（Resource）</a></p>
+  <p style="text-indent: 50px;">
+    <a class="text-danger" href="https://docs.google.com/presentation/d/1Ih1M0inCxp5a8jjHKVIDjb4hHpc2jIcR/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank" role="button" >
+      Chp0. Course Introduction
+    </a>
+  </p>
+
+  <p><a class="font-weight-bold">【1. Seven Development Models of E-Commerce】</a></p>
+  <p style="padding-left: 50px;">
+    <a class="text-danger" href="https://docs.google.com/presentation/d/1_HhI6FH4111X9zAKPYic_p57IPJkmQYe/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">
+      Chp1. Introduction to E-Commerce
+    </a>
+  </p>
+  <p style="padding-left: 50px;">
+    <a class="text-danger" href="https://docs.google.com/presentation/d/1mD-WtiesHSrQEqQCyRvJkfv9ouhgtY-v/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">
+      Chp2. E-Commerce Technology Basics
+      <br>【Internet, Front-end and Back-end Web Development, Databases, E-Payments, Financial Flow, Logistics, Website Security, Data Encryption Protection】
+    </a>
+  </p>
+
+  
+  <p style="padding-left: 50px;">
+    <a class="text-danger" href="https://docs.google.com/presentation/d/1_oj_ey9WtUHUSDyjV1pP3-zFLjB59qa6/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">
+      ◉Chp3. Common Paths for Taiwanese E-commerce Businesses to Develop E-commerce Platforms
+    </a>
+</p>  
+  
+<p style="padding-left: 50px;">
+    <a class="text-danger" href="https://docs.google.com/presentation/d/1UqFvE0N0TmRbUQ-xs9Ep3NqgZXCuC_ei/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">
+      Chp4. E-commerce Platforms and Tools
+    </a>
+</p>
+
+
+<p style="text-indent: 50px;">
+  <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-55" role="button" aria-expanded="false" aria-controls="collapseExample-55">
+    ◉Chp5. Four Common Strategies in Online Marketing
+    <br>【SEO-SEM to Boost Traffic, Social Media Marketing, Email Marketing, Content Marketing to Build Brand Image】
+  </a>
+</p>
+<div class="collapse" id="collapseExample-55">
+  <div class="card card-body">
+    <p style="text-indent: 60px;"><a href="https://docs.google.com/presentation/d/1wbsvAK7HXewhIsEYgA8OgaiIDW9fg5WS/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">5-1-【Presentation PPT】Four Common Strategies in Online Marketing【SEO-SEM to Boost Traffic, Social Media Marketing, Email Marketing, Content Marketing to Build Brand Image】</a></p>
+    <p style="text-indent: 60px;"><a href="https://docs.google.com/presentation/d/19z-ttgw0kWX2Y5yOA4waNt1YYwq04FWL/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">5-2.【Presentation PPT】Search Engine Marketing (SEM) and Search Engine Optimization (SEO) Practices</a></p>
+    <p style="text-indent: 60px;"><a href="pic/p07.png" target="_blank">5-3. Two Types of SEM (Search Engine Marketing)</a></p>
+    <p style="text-indent: 60px;"><a href="pic/p08.png" target="_blank">5-4. Free SEM: SEO (Search Engine Optimization) for Natural Traffic Boost</a></p>
+    <p style="text-indent: 60px;"><a href="pic/p09.png" target="_blank">5-5. SEO Website Practice Steps for This Semester</a></p>
+    <p style="text-indent: 60px;"><a href="https://ccwntut.github.io/hw5/a5.html" target="_blank">5-6. Draft of a Mineral Water Company Product Introduction Article</a></p>
+    <p style="text-indent: 60px;"><a href="https://acupun.site/lecture/Ecommerce/SEO/SEO%E5%AF%A6%E4%BD%9C/06-ChatGPT%E5%BE%9EGoogle_ads%E6%8C%91%E5%87%BA%E7%9A%8420%E5%80%8B%E7%A4%A6%E6%B3%89%E6%B0%B4%E9%95%B7%E5%B0%BE%E9%97%9C%E9%8D%B5%E5%AD%97.txt" target="_blank">5-7. 20 Long-tail Keywords Extracted from Google Ads for Mineral Water</a></p>
+    <p style="text-indent: 60px;"><a href="https://ccwntut.github.io/hw5/a6.html" target="_blank">5-8. Article on Mineral Water Products with Long-tail Keywords</a></p>
+  </div>
+</div>
+
+  
+<p style="padding-left: 50px;">
+  <a class="text-danger" href="https://docs.google.com/presentation/d/1WekocBJZ44xPMtpsVpnPt2xk-m-CTM99/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">
+    ◉Chp6. 【Mobile Commerce and Cross-border E-commerce】 - Two Major Trends in E-commerce
+    <br>➜ Examples: SHEIN, Temu, Amazon
+  </a>
+</p> 
+
+<p style="padding-left: 50px;">
+  <a class="text-danger" href="https://docs.google.com/presentation/d/1VZ0W4IGdATf-gqNBRumhitsXk2d84iSO/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">
+    Chp7. E-commerce Law and Ethics
+  </a>
+</p>  
+
+<p style="padding-left: 50px;">
+  <a class="text-danger" href="https://docs.google.com/presentation/d/1jVN9Qu5RfK_HpRgKlbJaj0QMi5fwaAhH/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">
+    ◉Chp8. 【Supply Chain Management】 - The Key to Competitiveness in 【Fast Fashion E-commerce】
+    <br>➜ Examples: Zara, SHEIN
+  </a>
+</p>
+
+  
+<p style="padding-left: 50px;">
+  <a class="text-danger" href="https://docs.google.com/presentation/d/12zQn-KQWawcSXOY2drE_hGVQFS9uPfA2/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">
+    Chp9. E-commerce Customer Relationship Management
+    <br>【Data Analysis, Customer Segmentation, Personalized Marketing and Service, Customer Support, After-sales Service】
+  </a>
+</p>  
+
+<p style="padding-left: 50px;">
+  <a class="text-danger" href="https://docs.google.com/presentation/d/15TiR1nhP9LCDUgU53djbHA03hJmwjc2V/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">
+    Chp10. E-commerce Entrepreneurship Preparation
+    <br>【1- Business Plan, 2- Fundraising and Management】
+  </a>
+</p>
+
+<p style="padding-left: 50px;">
+  <a class="text-danger" href="https://docs.google.com/presentation/d/1RvR9z_0zk9yHL4oP7IkLDv_FUFOEbOA9/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">
+    ◉Chp11. Big Data Analysis in E-commerce
+    <br>【Real-time Transaction Data Analysis, Customer Browsing Behavior Analysis, Precise Recommendations, Market Demand Analysis, Risk Management】
+    <br>➜ Examples: Netflix, SHEIN, Amazon
+  </a>
+</p>
+
+<p style="padding-left: 50px;">
+  <a class="text-danger" href="https://docs.google.com/presentation/d/1_9kZnONyBYb-VUjT3J1-aw4D9agcgvEi/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">
+    ◉Chp12. Social Commerce and Influencer Economy: UGC Marketing as a New Trend
+    <br>➜ Examples: Xiaohongshu, SHEIN
+  </a>
+</p>
+<p style="padding-left: 50px;">
+  <a class="text-danger" href="https://docs.google.com/presentation/d/1T5fLV3G0owORbmutNOalsDFpirirWM3u/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">
+    ◉Chp13. Summary of Seven E-commerce Development Models and Future Trends
+    <br>【Third-party Platform Sales, Direct-to-Consumer (D2C) Platforms, Social Commerce, Micro-business, Subscription E-commerce, Drop-shipping, Affiliate Marketing】
+  </a>
+</p>
+
+
+
+<p><a class="font-weight-bold">【2. Practical Exercise: Developing an E-commerce Website – Practice Website Architecture, Using JavaScript to Track Customer Behavior, Applying SEO Techniques, and RWD Design to Improve Search Engine Ranking, and Using Google Analytics for Traffic Analysis】</a></p>
+
+<p style="text-indent: 50px;">
+    <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-19" role="button" aria-expanded="false" aria-controls="collapseExample-19">
+      Chp19. Applying for Free Cloud Hosting (Frontend: GitHub, Backend: Byethost)
+    </a>
+</p>
+<div class="collapse" id="collapseExample-19">
+    <div class="card card-body">
+      <p style="text-indent: 60px;">Frontend Hosting</p>
+      <p style="text-indent: 60px;"><a href="https://github.com/" target="_blank">Link: Log in to GitHub Pages</a></p>
+      <p style="text-indent: 60px;"><a href="https://docs.google.com/presentation/d/1LIa7EEfm-envjgU92bWbeftDVI5MyJLu/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">Presentation: How to Use GitHub Pages</a></p>
+      <p style="text-indent: 60px;">URL Format: username.github.io/repository, Example: user1.github.io/hw1</p>
+      <hr>
+      <p style="text-indent: 60px;">Backend Hosting</p>
+      <p style="text-indent: 60px;"><a href="https://cpanel.byethost7.com/" target="_blank">Link: Log in to Byethost Cpanel</a></p>
+      <p style="text-indent: 60px;"><a href="https://byet.host/free-hosting" target="_blank">Link: Register for Byethost</a></p>
+    </div>
+</div>
+
+
+<p style="text-indent: 50px;">
+  <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-2" role="button" aria-expanded="false" aria-controls="collapseExample-2">
+    Chp20. Practical Example 0: What is Code? What is the Function of Code? Using Pre-written Code
+  </a>
+</p>
+<div class="collapse" id="collapseExample-2">
+  <div class="card card-body">
+    <p style="text-indent: 60px;"><a href="https://ccwntut.github.io/hw0/" target="_blank">20-1. Example Results</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw0/b04_使用JavaScript，JavaApplet做出各種特效.docx" target="_blank">20-2. Download Handouts Files</a></p>
+    <p style="text-indent: 60px;"><a href="https://drive.google.com/file/d/1RGEW7PS7Hzl22ojTfCHeaXOUmvwNwfnq/view?usp=sharing" target="_blank">20-3. Download Webpage Template</a></p>
+    <hr>
+    <p style="text-indent: 60px;"><a href="https://icons-for-free.com/snow+snowflake+icon-1320196576576887593/" target="_blank">Free Icon Download: Icon for Free</a></p>
+    <p style="text-indent: 60px;"><a href="https://www.cadiis.com.tw/blog/how-to-write-copyright" target="_blank">How to Write a Website Copyright Declaration</a></p>
+    <p style="text-indent: 60px;"><a href="https://iseeu.tw/%E7%B6%B2%E7%AB%99%E9%A0%81%E5%B0%BE%E7%9A%84%E7%89%88%E6%AC%8A%E5%AE%A3%E5%91%8A-copyright-%E6%87%89%E8%A9%B2%E6%80%8E%E9%BA%BC%E5%AF%AB/" target="_blank">How to Write a Copyright Declaration for a Website Footer</a></p>
+    <p style="text-indent: 60px;"><a href="http://ip194097.ntcu.edu.tw/course/x/2010/bang-iah/pah-po-siuN/" target="_blank">Homepage Creation Toolbox</a></p>
+    <p style="text-indent: 60px;"><a href="http://sn007395h.xxking.com/java_script.htm" target="_blank">JavaScript Effects</a></p>
+  </div>
+</div>
+
+
+
+<p style="text-indent: 50px;">
+  <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-21" role="button" aria-expanded="false" aria-controls="collapseExample-21">
+    Chp21. Practical Example 1: Create an HTML Website and Upload to GitHub Frontend Hosting
+  </a>
+</p>
+<div class="collapse" id="collapseExample-21">
+  <div class="card card-body">    
+    <p style="text-indent: 60px;"><a href="https://ccwntut.github.io/hw1-2024-2" target="_blank">21-1. Example Results</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw1/homewrok-1.htm" target="_blank">21-2. Example 1 Assignment</a></p>
+    <p style="text-indent: 60px;"><a href="http://www.oswd.org/designs/favorites/" target="_blank">21-3. Web Template Collection Site</a></p>
+    <p style="text-indent: 60px;"><a href="https://drive.google.com/file/d/10uG0VSDi1H9P8CEVnUd8GdC1NQoYR0ds/view?usp=sharing" target="_blank">21-4. Download Web Template</a></p>
+    <p style="text-indent: 60px;"><a href="https://docs.google.com/document/d/1Qd9B0GWlk9_eBigM7L8npWg4xEnTQQ-z/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">21-5. Web Template Tutorial Handout</a></p>
+    
+    <hr>
+    <p style="text-indent: 60px;"><a href="https://www.fooish.com/html/hyperlink-a-tag.html" target="_blank">Example 1-1: HTML - Hyperlink</a></p>
+    <p style="text-indent: 60px;"><a href="https://www.wibibi.com/info.php?tid=115" target="_blank">Example 1-2: HTML - Displaying Images</a></p>
+    <p style="text-indent: 60px;"><a href="https://acupun.site/lecture/html5_CSS_javascript/2-alert01.html" target="_blank">Example 1-3: JavaScript Alert Message</a></p>
+    <p style="text-indent: 60px;"><a href="https://acupun.site/lecture/html5_CSS_javascript/game/teris.html" target="_blank">Example 1-4: JavaScript Tetris Clone</a></p>
+    <p style="text-indent: 60px;"><a href="https://www.wibibi.com/info.php?tid=252" target="_blank">Example 1-5: JavaScript Alert</a></p>
+  </div>
+</div>
+
+
+  
+
+<p style="text-indent: 50px;">
+  <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-22" role="button" aria-expanded="false" aria-controls="collapseExample-22">
+    Chp22. Practical Example 2: Website Design with CSS (Cascading Style Sheets)
+  </a>
+</p>
+<div class="collapse" id="collapseExample-22">
+  <div class="card card-body">    
+    <p style="text-indent: 60px;"><a href="https://haiyin33.github.io/hw2/" target="_blank">22-1. Example Results</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw2/homework-2.htm" target="_blank">22-2. Example 2 Assignment</a></p>
+    <p style="text-indent: 60px;"><a href="https://drive.google.com/file/d/1a0iNRA_jH05JNH85Fjmxi27FpqXbBoUp/view?usp=sharing" target="_blank">22-3. Download Web Template</a></p>
+    <p style="text-indent: 60px;"><a href="../html5_CSS_javascript/html5_CSS_javascript-20220420.htm" target="_blank">22-4. Three-element Structure Diagram of Client Side Website</a></p>
+
+    <p style="text-indent: 60px;"><a href="homework/hw2/client-sever-mysql.jpg" target="_blank">22-5. Client and Server Side Structure Diagram for E-commerce Website</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw2/python-js-java-php-c.png" target="_blank">22-6. Development Trends of Client/Server Side Programming Languages</a></p>
+    
+    <hr>
+    <p style="text-indent: 60px;"><a href="https://www.fooish.com/html/table.html" target="_blank">Example 2-1: HTML - Table</a></p>
+    <p style="text-indent: 60px;"><a href="https://www.wibibi.com/info.php?tid=394" target="_blank">Example 2-2: CSS - Text Color, Font Size, Text Alignment</a></p>
+    <p style="text-indent: 60px;"><a href="https://acupun.site/lecture/html5_CSS_javascript/2-documentWrite03.html" target="_blank">Example 2-3: JavaScript Display Text</a></p>
+    <p style="text-indent: 60px;"><a href="https://acupun.site/lecture/html5_CSS_javascript/2-documentWrite04.html" target="_blank">Example 2-4: JavaScript Display Text at a Specific Location</a></p>
+  </div>
+</div>
+
+
+
+  
+
+<p style="text-indent: 50px;">
+  <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-23" role="button" aria-expanded="false" aria-controls="collapseExample-23">
+    Chp23. Practical Example 3: The Three Key Elements of Client Side Websites: HTML, JavaScript, and CSS-class Interaction Control Techniques
+  </a>
+</p>
+<div class="collapse" id="collapseExample-23">
+  <div class="card card-body">    
+    <p style="text-indent: 60px;"><a href="https://haiyin33.github.io/hw3/" target="_blank">23-1. Example Results</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw3/homework-3.htm" target="_blank">23-2. Example 3 Assignment</a></p>
+    <p style="text-indent: 60px;"><a href="https://drive.google.com/file/d/1_PfU3zVjiDW7TxRIR5q6BEKCzZLxMZ3-/view?usp=sharing" target="_blank">23-3. Download Web Template</a></p>
+    <p style="text-indent: 60px;"><a href="../html5_CSS_javascript/html5_CSS_javascript-20220420.htm" target="_blank">23-4. Three-element Structure Diagram of Client Side Website</a></p>
+
+    <hr>
+    <p style="text-indent: 60px;"><a href="https://acupun.site/lecture/html5_CSS_javascript/3-label-class.html" target="_blank">Example 3-2: CSS Style Class</a></p>
+    <p style="text-indent: 60px;"><a href="https://acupun.site/lecture/html5_CSS_javascript/4-img01.html" target="_blank">Example 3-3: Change Image on Mouse Hover</a></p>
+    <p style="text-indent: 60px;"><a href="https://acupun.site/lecture/html5_CSS_javascript/txt/document.getElementById(%E5%90%8D%E7%A8%B1).style.txt" target="_blank">Example 3-4: JavaScript Directly Setting Style</a></p>
+    <p style="text-indent: 60px;"><a href="https://ithelp.ithome.com.tw/articles/10205322" target="_blank">CSS Padding, Margin</a></p>
+  </div>
+</div>
+
+
+
+  
+
+<p style="text-indent: 50px;">
+  <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-24" role="button" aria-expanded="false" aria-controls="collapseExample-24">
+    Chp24. Practical Example 4: Website Traffic Tracking and Analysis with Google Analytics
+  </a>
+</p>
+<div class="collapse" id="collapseExample-24">
+  <div class="card card-body">    
+    <p style="text-indent: 60px;"><a href="https://haiyin33.github.io/hw4/" target="_blank">24-1. Example Results</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw4/homework-4.htm" target="_blank">24-2. Example 4 Assignment</a></p>
+    <p style="text-indent: 60px;"><a href="https://drive.google.com/file/d/1Ntg5GAdQuEEEXyrJA0zuskPcF4D9lX7I/view?usp=sharing" target="_blank">24-3. Download Web Template</a></p>
+    <p style="text-indent: 60px;"><a href="https://analytics.google.com/" target="_blank">24-4. Google Analytics (GA) Homepage</a></p>
+    <p style="text-indent: 60px;"><a href="https://docs.google.com/presentation/d/1CxMWjPymEmftouVP5RKYf8oFIX7OFsQD/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">24-5. 【PPT】GA Tutorial (1)</a></p>
+    <p style="text-indent: 60px;"><a href="https://tagassistant.google.com/" target="_blank">24-6. Use Google Tag Assistant to Verify GA4 Code Installation</a></p>
+    <p style="text-indent: 60px;"><a href="pic/p12.png" target="_blank">24-7. 【Results】Tracking Website Traffic with Google Analytics (GA)</a></p>
+    <p style="text-indent: 60px;"><a href="pic/p13.png" target="_blank">24-8. 【Results】Verifying GA4 Code Installation with Google Tag Assistant</a></p>
+    
+    <p style="text-indent: 60px;"><a href="../html5_CSS_javascript/html5_CSS_javascript-20220420.htm" target="_blank">24-9. Three-element Structure Diagram of Frontend Website</a></p>
+
+    <hr>
+    <p style="text-indent: 60px;"><a href="https://www.fooish.com/html/list-ul-ol-li-dl-dt-dd-tag.html" target="_blank">Example 4-1: HTML - Lists (ul, li)</a></p>
+    <p style="text-indent: 60px;"><a href="https://acupun.site/lecture/html5_CSS_javascript/3-label-class-link.html" target="_blank">Example 4-2: CSS - External Stylesheet Links</a></p>
+    <p style="text-indent: 60px;"><a href="https://acupun.site/lecture/html5_CSS_javascript/3-textBox01.html" target="_blank">Example 4-3: JavaScript - Adding Numbers</a></p>
+    <p style="text-indent: 60px;"><a href="https://acupun.site/lecture/html5_CSS_javascript/4-1.html" target="_blank">Example 4-4: JavaScript - Comparing Numbers</a></p>
+
+    <hr>
+    <p style="padding-left: 60px;">
+      1. Google Analytics (GA) is a free and powerful website traffic analysis tool launched by Google. It is widely used in 【website management, digital marketing, SEO execution】.
+    </p>
+
+    <p style="padding-left: 60px;">
+      2. Google provides a 【demo account】 for users to practice. You can find this demo account using the account selection tool in Analytics (where you link the organization and account).
+    </p>
+
+    <p style="padding-left: 60px;">
+      3. Each Google account has a limit on the number of Analytics accounts it can create, currently capped at 2000 accounts per Google account. The demo account will count toward this limit.
+    </p>
+    <br>
+    <hr>  
+    <p style="padding-left: 60px;">
+      4. The demo account includes three resources that can be accessed via the account selector at any time:<br>
+      ◉Google Analytics 4 Resource: Google Merchandise Store (website data)<br>
+      ◉Google Analytics 4 Resource: Flood-It! (App and website data)<br>
+      ◉Universal Analytics Resource: Google Merchandise Store (data from the previous version of the website)<br>
+    </p>
+
+    <br>
+    <hr>  
+    <p style="padding-left: 60px;">
+      5. How GA Works:<br>
+      ◉Google Analytics collects data using page tags (tracking code) embedded in each page of your website. When users visit a page, their browsing data is captured and sent to Google Analytics' database, which is then visualized in various reports.<br>
+      ◉The Google Analytics tracking code should be placed in the ＜HEAD＞ section of your webpage to track visitor behavior.<br>
+      <img src="pic/p06.png" width="80%"><br>
+
+      ◉For example, if you want to track whether visitors are clicking a specific hyperlink, you can set up custom behavior tracking in GA.
+    </p>
+
+    <br>
+    <hr>  
+    <p style="padding-left: 60px;">
+      6. Key Features of Google Analytics 4:<br>
+      ◉Tracking Visitor Profiles: GA tracks various visitor characteristics and behaviors.<br>
+      ◉Visitor Behavior Analysis: GA provides key dimensions and metrics to analyze visitor behavior.<br>
+      ◉Data Suggestions: GA provides specific recommendations based on visitor behavior to optimize website performance.<br>
+      ◉Traffic Source Reports: GA supports analyzing different traffic sources (e.g., search engines, social media, ads).<br>
+      ◉User Behavior Analysis: GA provides insights into user behavior on different pages, such as time spent and bounce rate.
+    </p>
+    <br>
+    <hr>  
+    <p style="padding-left: 60px;">
+      7. Understanding GA Reports:<br>
+      Google Analytics offers four main reports:<br>
+      ◉Audience<br>
+      ◉Acquisition<br>
+      ◉Behavior<br>
+      ◉Conversion
+    </p>
+    <br>
+    <hr>  
+    <p style="padding-left: 60px;">
+      8. Key Report Components: Dimensions and Metrics<br>
+      ◉Dimensions: Categories such as visitor language, location, or system used.<br>
+      ◉Metrics: Values associated with dimensions, such as number of visitors or sessions.<br>
+      <img src="pic/p01.png" width="80%">
+    </p>      
+    <br>
+    <hr>  
+    <p style="padding-left: 60px;">
+      9. Audience Report: Helps answer questions like "Who is visiting my site?" and provides insights into visitor profiles, browser types, and geographic data.<br>
+      <img src="pic/p02.png" width="80%">
+    </p>  
+    <br>
+    <hr>  
+    <p style="padding-left: 60px;">
+      10. Acquisition Report: Shows which channels brought visitors to your site (e.g., Facebook, search engines, Google Ads).<br>
+      <img src="pic/p03.png" width="80%">
+    </p>
+    <br>
+    <hr>  
+    <p style="padding-left: 60px;">
+      11. Example Question: If a user clicks a link to your website from Facebook, which traffic source does this fall under?<br>
+      ◉Answer: Referral Traffic.
+    </p>
+    <br>  
+    <hr> 
+    <p style="padding-left: 60px;">
+      12. Why is this categorized as referral traffic instead of social traffic?<br>
+      ◉Social traffic refers to visitors coming through social media content like posts or videos, while referral traffic is tracked through external links, such as from a Facebook message or ad.
+    </p>  
+
+    <br>
+    <hr>  
+    <p style="padding-left: 60px;">
+      13. Behavior Report: Shows what visitors do on your website, including the pages they visit, time spent, and page performance.<br>
+      <img src="pic/p04.png" width="80%">
+    </p>  
+    <br>
+    <hr>  
+    <p style="padding-left: 60px;">
+      14. Conversion Report: Tracks the completion of website goals, such as registrations or purchases.<br>
+      <img src="pic/p05.png" width="80%">
+    </p>  
+    <br>
+    <hr>  
+    <p style="padding-left: 60px;">
+      15. Google offers a free GA certification exam that can be taken online. It consists of 70 questions, and a score of 80% is required to pass.<br>
+      <a href="https://skillshop.docebosaas.com/learn/courses/14810/google-analytics-certification" target="_blank">【GA Certification Exam Link】</a><br>
+    </p>  
+    <br>
+    <hr>  
+    <p style="padding-left: 60px;">
+      16. Google provides GA learning resources with courses for different levels:<br>
+      101: Getting Started with Google Analytics 4 (Beginner)<br>
+      102: Managing GA4 Data and Reports (Beginner)<br>
+      201: Advanced GA4 Data and Reports (Intermediate)<br>
+      301: Using GA4 with Other Tools and Data Sources (Advanced)<br>
+      <a href="https://support.google.com/analytics/answer/15068052#zippy=,get-started-using-google-analytics-introduction,go-further-with-advanced-features-in-google-analytics-advanced,answer-business-questions-with-google-analytics-intermediate,use-google-analytics-for-your-business-beginner" target="_blank">【GA Learning Center Link】</a><br>
+    </p>  
+  </div>
+</div>
+
+
+
+  
+
+<p style="text-indent: 50px;">
+  <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-25" role="button" aria-expanded="false" aria-controls="collapseExample-25">
+    Chp25. Practical Example 5: Common Online Marketing Method (1) - SEO to Improve Search Ranking and Increase Organic Traffic
+  </a>
+</p>
+<div class="collapse" id="collapseExample-25">
+  <div class="card card-body">    
+    <p style="text-indent: 60px;"><a href="https://ccwntut.github.io/hw5" target="_blank">25-1. Example Results</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw5/homework-5.htm" target="_blank">25-2. Example 5 Assignment</a></p>
+    <p style="text-indent: 60px;"><a href="https://drive.google.com/file/d/1PVKx-hJPwtK3eQfAhyaXuuV8JszlDBCt/view?usp=sharing" target="_blank">25-3. Download Web Template</a></p>
+    <hr>
+    <p style="text-indent: 60px;"><a href="pic/p07.png" target="_blank">25-4. Two Types of Search Engine Marketing (SEM)</a></p>
+    <p style="text-indent: 60px;"><a href="pic/p08.png" target="_blank">25-5. Free Search Engine Marketing: SEO (Search Engine Optimization) for Organic Traffic</a></p>
+    <p style="text-indent: 60px;"><a href="pic/p09.png" target="_blank">25-6. Steps for SEO Website Implementation This Semester</a></p>
+    <p style="text-indent: 60px;"><a href="https://docs.google.com/presentation/d/19z-ttgw0kWX2Y5yOA4waNt1YYwq04FWL/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">25-7. 【PPT】SEM and SEO Implementation</a></p>
+    <hr>
+    <p style="text-indent: 60px;"><a href="SEO/SEO實作/Keyword Stats 汽車美容.csv" target="_blank">25-8. Google Ads - Car Detailing Monthly Search Keyword File</a></p>
+    <p style="text-indent: 60px;"><a href="SEO/SEO實作/04-ChatGPT從Google_ads挑出的20個長尾關鍵字.txt" target="_blank">25-9. ChatGPT Selected 20 Long-tail Keywords from Google Ads for Car Detailing</a></p>
+    <hr>
+    <p style="text-indent: 60px;"><a href="SEO/SEO實作/02-礦泉水產品介紹文章(初稿).txt" target="_blank">25-10. Draft of a Mineral Water Company Product Introduction Article</a></p>
+    <p style="text-indent: 60px;"><a href="SEO/SEO實作/03-礦泉水產品的3種關鍵字.txt" target="_blank">25-11. Common SEO Keywords Provided by ChatGPT 4.0</a></p>
+    <p style="text-indent: 60px;"><a href="SEO/SEO實作/05-Keyword Stats 礦泉水.csv" target="_blank">25-12. Google Ads - Mineral Water Monthly Search Keyword File</a></p>
+    <p style="text-indent: 60px;"><a href="SEO/SEO實作/06-ChatGPT從Google_ads挑出的20個礦泉水長尾關鍵字.txt" target="_blank">25-13. ChatGPT Selected 20 Long-tail Keywords from Google Ads for Mineral Water</a></p>
+    <p style="text-indent: 60px;"><a href="SEO/SEO實作/07-ChatGPT加入長尾關鍵字的修正文章.txt" target="_blank">25-14. Article Edited by ChatGPT with Long-tail Keywords</a></p>
+    <p style="text-indent: 60px;"><a href="SEO/SEO實作/p01.jpg" target="_blank">25-15. Mineral Water Product Image</a></p>
+    <p style="text-indent: 60px;"><a href="SEO/SEO實作/08-優化礦泉水圖片語法.txt" target="_blank">25-16. Optimized Syntax for Mineral Water Image</a></p>
+    
+    <hr>
+    <p style="text-indent: 60px;"><a href="https://acupun.site/lecture/html5_CSS_javascript/4-if02.html" target="_blank">Example 5-1: if..else... + radio button - Shopping Cart</a></p>
+    <p style="text-indent: 60px;"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color" target="_blank">Example 5-2: input-color to Set Background Color</a></p>
+    <p style="text-indent: 60px;"><a href="https://blog.gtwang.org/web-development/html5-date-input/" target="_blank">Example 5-3: Account, Password, Date</a></p>
+    <p style="text-indent: 60px;"><a href="https://www.fooish.com/html/select-option-optgroup-tag.html" target="_blank">Example 5-4: Dropdown Menu - select-option</a></p>
+  </div>
+</div>
+
+
+
+
+  
+
+<p style="text-indent: 50px;">
+  <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-26" role="button" aria-expanded="false" aria-controls="collapseExample-26">
+    Chp26. Practical Example 6: Common Online Marketing Method (2) - SEO Technique 2: Responsive Web Design (RWD)
+  </a>
+</p>
+<div class="collapse" id="collapseExample-26">
+  <div class="card card-body">    
+    <p style="text-indent: 60px;"><a href="https://haiyin33.github.io/hw6/" target="_blank">26-1. Example Results</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw6/homework-6.htm" target="_blank">26-2. Example 6 Assignment</a></p>
+    <p style="text-indent: 60px;"><a href="https://drive.google.com/file/d/1cJvdSXAGf6iJsLA3faFylEKqhLLNXi1T/view?usp=sharing" target="_blank">26-3. Download Web Template</a></p>
+    <hr>
+    <p style="text-indent: 60px;"><a href="pic/p07.png" target="_blank">25-4. Two Types of Search Engine Marketing (SEM)</a></p>
+    <p style="text-indent: 60px;"><a href="pic/p08.png" target="_blank">25-5. Free Search Engine Marketing: SEO for Organic Traffic</a></p>
+    <p style="text-indent: 60px;"><a href="pic/p09.png" target="_blank">25-6. SEO Implementation Steps for This Semester</a></p>
+    <p style="text-indent: 60px;"><a href="https://docs.google.com/presentation/d/19z-ttgw0kWX2Y5yOA4waNt1YYwq04FWL/edit?usp=sharing&ouid=113891436102774488001&rtpof=true&sd=true" target="_blank">25-7. 【PPT】SEM and SEO Implementation</a></p>
+
+    <hr>
+    <p style="text-indent: 60px;"><a href="http://www.mobanwang.com/mb/202211/20391.html#yulan" target="_blank">Template King</a></p>
+    <p style="text-indent: 60px;"><a href="https://v3.bootcss.com/" target="_blank">Bootstrap 3 Official Site</a></p>
+    <p style="text-indent: 60px;"><a href="https://bootstrap5.hexschool.com/" target="_blank">Bootstrap 5 Official Site</a></p>
+    <p style="text-indent: 60px;"><a href="https://bootstrap5.hexschool.com/docs/5.1/components/buttons/" target="_blank">v5 Buttons</a></p>
+    <hr>
+    <p style="text-indent: 60px;"><a href="https://v3.bootcss.com/css/#type" target="_blank">v3 Text Alignment, Italics, Bold</a></p>
+    <p style="text-indent: 60px;"><a href="https://v3.bootcss.com/css/#images" target="_blank">v3 Responsive Images</a></p>
+    <p style="text-indent: 60px;"><a href="https://v3.bootcss.com/css/#tables" target="_blank">v3 Tables</a></p>
+    <p style="text-indent: 60px;"><a href="https://v3.bootcss.com/components/#dropdowns" target="_blank">v3 Button Dropdown Menus</a></p>
+  </div>
+</div>
+
+
+
+  
+
+<p style="text-indent: 50px;">
+  <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-27" role="button" aria-expanded="false" aria-controls="collapseExample-27">
+    Chp27. Practical Example 7: Common Online Marketing Method (3) - SEO Technique 2: Responsive Web Design (RWD)
+  </a>
+</p>
+<div class="collapse" id="collapseExample-27">
+  <div class="card card-body">    
+    <p style="text-indent: 60px;"><a href="https://haiyin33.github.io/hw7/" target="_blank">27-1. Example Results</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw7/homework-7.htm" target="_blank">27-2. Example 7 Assignment</a></p>
+    <p style="text-indent: 60px;"><a href="https://drive.google.com/file/d/1Xy2nfZl5Thmuc7Rh5YO6cotFwQKDfgiu/view?usp=sharing" target="_blank">27-3. Download Web Template</a></p>
+    <p style="text-indent: 60px;"><a href="https://drive.google.com/file/d/1-Wtkp83s4wdYEVxpJYGJSNwX05jBSZXp/view?usp=sharing" target="_blank">27-4. Download Poker Images</a></p>
+    <hr>
+    <p style="text-indent: 60px;"><a href="pic/p07.png" target="_blank">25-4. Two Types of Search Engine Marketing (SEM)</a></p>
+    <p style="text-indent: 60px;"><a href="pic/p08.png" target="_blank">25-5. Free Search Engine Marketing: SEO for Organic Traffic</a></p>
+    <p style="text-indent: 60px;"><a href="pic/p09.png" target="_blank">25-6. Steps for SEO Website Implementation This Semester</a></p>
+    <p style="text-indent: 60px;"><a href="https://docs.google.com/presentation/d/19z-ttgw0kWX2Y5yOA4waNt1YYwq04FWL/edit#slide=id.p1" target="_blank">25-7. 【PPT】SEM and SEO Implementation</a></p>
+
+    <hr>
+    <p style="text-indent: 60px;"><a href="http://www.mobanwang.com/mb/202302/20538.html" target="_blank">Template King Website</a></p>
+    <p style="text-indent: 60px;"><a href="https://v4.bootcss.com/docs/getting-started/introduction/" target="_blank">Bootstrap 4 Official Website</a></p>
+    <p style="text-indent: 60px;"><a href="https://v4.bootcss.com/docs/layout/grid/" target="_blank">Bootstrap 4: How to Set Spacing and Layout</a></p>
+    <p style="text-indent: 60px;"><a href="https://acupun.site/lecture/html5_CSS_javascript/7-Math02.html" target="_blank">JavaScript: Random Function</a></p>
+
+    <p style="text-indent: 60px;"><a href="https://acupun.site/lecture/html5_CSS_javascript/7-Math03.html" target="_blank">Poker Game: Deal and Compare (1)</a></p>
+    <p style="text-indent: 60px;"><a href="https://acupun.site/lecture/html5_CSS_javascript/7-4.html" target="_blank">Poker Game: Deal and Compare (2)</a></p>
+    <p style="text-indent: 60px;"><a href="https://blog.csdn.net/jianye5461/article/details/79463014" target="_blank">Bootstrap 4: Adjust Line Spacing with mt-1</a></p>
+    <p style="text-indent: 60px;"><a href="https://v4.bootcss.com/docs/components/collapse/" target="_blank">Bootstrap 4 Collapse Component</a></p>
+  </div>
+</div>
+
+
+
+  
+
+<p style="text-indent: 50px;">
+  <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-28" role="button" aria-expanded="false" aria-controls="collapseExample-28">
+    Chp28. Practical Example 8: Website Setup and Domain Registration
+  </a>
+</p>
+<div class="collapse" id="collapseExample-28">
+  <div class="card card-body">    
+    <p style="text-indent: 60px;"><a href="https://haiyin33.github.io/hw8/" target="_blank">28-1. Example Results</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw8/homework-8.htm" target="_blank">28-2. Example 8 Assignment</a></p>
+    <p style="text-indent: 60px;"><a href="http://www.mobanwang.com/mb/202305/20644.html" target="_blank">28-3. Download Web Template</a></p>
+    <p style="text-indent: 60px;"><a href="https://www.apachefriends.org/zh_tw/download.html" target="_blank">28-4. Download and Install XAMPP from the Official Website</a></p>
+    <p style="text-indent: 60px;"><a href="https://www.discuz.vip/" target="_blank">28-5. Download and Install Discuz - The World's Largest Forum Software</a></p>
+
+    <hr>
+    <p>
+      <strong>1. Three-layer Architecture of E-commerce Websites (e.g., Taobao, Momo, Shopee):</strong><br>
+      A. Client-side App (Frontend): HTML, JavaScript<br>
+      B. Server-side Webpage (Backend): <a href="https://www.pure17go.com.tw/" target="_blank">PHP</a>, <a href="https://www.momoshop.com.tw/main/Main.jsp" target="_blank">JSP</a>, <a href="https://eeclass.csu.edu.tw/" target="_blank">ASP.NET</a><br>
+      C. Database: MySQL, SQL Server<br>
+    </p>
+  <p>
+    <strong>2. Four Key Tasks in Building an E-commerce Website:</strong><br>
+    A. Create Frontend Pages (HTML, CSS, JavaScript)<br>
+    B. Web Server Setup (Apache)<br>
+    C. Create Database (MySQL)<br>
+    D. Create Backend Pages (PHP)<br>
+  </p>
+  <img src="https://acupun.site/lecture/php/image/client-sever-mysql.jpg" width="90%">
+
+<table>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF"></td>
+  <td><a href="https://www.apachefriends.org/zh_tw/download.html" target="_blank">Web Server Software 1: Download XAMPP from the Official Site</a></td>
+  <td><a href="https://www.youtube.com/watch?v=JI7ezV8QYWM" target="_blank">XAMPP Installation Tutorial (Windows)</a></td>
+  <td><a href="https://www.youtube.com/watch?v=KWTOgNFHcqc" target="_blank">XAMPP Installation Tutorial (MAC)</a></td>
+  <td><a href="example/chp9/mac-htdocs.png" target="_blank">How to Find the htdocs Directory on Mac</a></td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF"></td>
+  <td><a href="https://acupun.site/lecture/web2010/e1/bitter_sweet.zip" target="_blank">Download Homework 1: bitter_sweet</a></td>
+  <td><a href="homework/hw9/cat.zip" target="_blank">Download Web Animation: Walking Cat</a></td>
+  <td></td>
+  <td></td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF"></td>
+  <td>How to Find Your Computer's IP Address (Method 1): Type "myip" in Chrome</td>
+  <td>How to Find Your Computer's IP Address (Method 2): Use Command Prompt (cmd), type "ipconfig", and find the IP4 Address (e.g., 192.168.68.101)</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF"></td>
+  <td><a href="https://www.youtube.com/watch?v=gxYpitQmais" target="_blank">Tutorial on Installing Two MySQL Databases Simultaneously</a></td>
+  <td colspan="3">
+    <hr>
+    Installing both MySQL Workbench and XAMPP can cause port conflicts (port 3306), resulting in errors.<br>
+    <a href="example/chp8/p01.png" target="_blank">Image</a><br>
+    Solution: Change XAMPP's port to a different number (e.g., 3307). You need to modify 3 files, which is complicated. Follow the tutorial.<br>
+  <hr>
+  <p>
+    (1) First Modification: Apache ➜ config ➜ phpMyAdmin (config.inc.php)<br>
+    $cfg['Servers'][$i]['host'] = 'localhost:3307';<br>
+    <a href="example/chp8/p03.png" target="_blank">Image</a>, <a href="example/chp8/p04.png" target="_blank">Image</a>, <a href="example/chp8/p05.png" target="_blank">Image</a><br>
+  </p>
+  <hr>
+  <p>
+    (2) Second Modification: MySQL ➜ config ➜ My.ini<br>
+    port=3307<br>
+    <a href="example/chp8/p06.png" target="_blank">Image</a><br>
+  </p>
+  <hr>
+  <p>
+    (3) Third Modification: config ➜ Service and Port Settings ➜ mysql:3307<br>
+    <a href="example/chp8/p02.png" target="_blank">Image</a><br>
+  </p>
+  <hr>
+  <p>
+    (4) Restart XAMPP Control Panel: The red warning should disappear.<br>
+    Apache ➜ Start<br>
+    MySQL ➜ Start<br>
+    <a href="example/chp8/p13.png" target="_blank">Image</a><br>
+  </p>
+  <hr>
+  <p>
+    (5) Open MySQL Database: MySQL ➜ Admin<br>
+    <a href="example/chp8/p16.png" target="_blank">Image</a><br>
+  </p>
+</td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF"></td>
+  <td><a href="https://sourceforge.net/projects/wampserver/files/WampServer%203/" target="_blank">Web Server Software 2: Download WAMP from the Official Site</a></td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF"></td>
+  <td colspan="4"><a href="https://www.discuz.vip/" target="_blank">World's Largest Forum Backend Software: Download Discuz (PHP) from the Official Site</a><br>
+    (1) PHP + MySQL: Extract the "upload" folder to "www", then access http://localhost/upload/ to install (MySQL account: root, password: admin/admin).<br>
+    <a href="http://localhost/upload/" target="_blank">Test: Local Discuz Forum</a><br>
+    <br>
+    (2) Create a Forum Section:<br>
+    Admin Center ➜ login as admin ➜ left menu ➜ Forum ➜ Manage Sections ➜ Create Structure:<br>
+    Discuz ➜ Food Discussions, Travel Sharing, Second-hand Sales<br>
+    <br>
+    (3) Post a Thread as Admin: "Where are the best late-night snacks in Da'an District?"<br>
+    <br>
+    (4) Register a New Member Account:<br>
+    Log out of admin<br>
+    Register: Username, Password (at least 6 characters)<br>
+    No email verification required<br>
+    <br>
+    (5) Reply to the Thread with the New Account:<br>
+    "Tonghua Night Market has a lot of great late-night snacks."<br>
+    <br>
+    (6) Add IP Address (IP4): http://192.168.68.101/upload/<br>
+  </td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF"></td>
+  <td colspan="4">
+    <hr>  
+    How to Convert IP4 Address to a Domain?<br>
+    (1) <a href="https://www.bluehost.com/" target="_blank">Paid Domain Registration: Bluehost</a><br>
+    (2) <a href="https://www.awardspace.com/" target="_blank">Paid Domain Registration: AwardSpace</a><br>
+    (3) <a href="https://www.agilityhoster.com/" target="_blank">Paid Domain Registration: AgilityHoster</a><br>  
+    (4) <a href="https://www.freenom.com/" target="_blank">Free Domain Registration: Freenom</a><br>
+    <a href="https://acupun.site/lecture/cmedia/#exp7_2" target="_blank">Freenom Registration Tutorial</a><br>
+  </td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF"></td>
+  <td colspan="4">
+    <a href="https://acupun.site/lecture/cmedia/#exp7_3" target="_blank">Paid Domain Registration: GoDaddy</a><br>
+    <a href="https://tw.godaddy.com/" target="_blank">GoDaddy Official Site</a><br>
+  </td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF"></td>
+  <td colspan="4">
+    (1) <a href="https://acupun.site/lecture/php/mysql/ch09.rar" target="_blank">Download Database (ch09.sql)</a><br>
+    (2) Query ch09 Database, Books Table:<br>
+    SELECT * FROM `books`;<br>
+    (3) Practice Queries:<br>
+    1. Query all book records.<br>
+    2. Query book names and prices.<br>
+    3. Query books with prices over 400.<br>
+    4. Query books with "design" in the name.<br>
+    5. Query books managed by employee ID 1.<br>
+    6. Query books with prices between 300 and 500, sorted by price descending.<br>
+    7. Query the most expensive book.<br>
+    8. Query the cheapest book.<br>
+    9. Query the average price.<br>
+    10. Query books with names starting with "A".<br>
+    11. Query books with names ending with "tech".<br>
+    12. Query books managed by employee IDs 1 and 2.<br>
+    13. Query books with prices not equal to 350.<br>
+    14. Query all books, sorted by price ascending, then by name descending if prices are the same.<br>
+    15. Query the number of books managed by each employee.<br>
+    16. Query the number of books for each price.<br>
+    17. Query the second most expensive book.<br>
+    18. Query the third cheapest book.<br>
+    <hr>
+    19. Insert a new book with ID 36, name "Python Programming for Beginners", price 420, managed by employee ID 2.<br>
+    INSERT INTO books (book_id, book_name, price, employee_id)<br>
+    VALUES (36, 'Python Programming for Beginners', 420, 2);<br>
+    20. Delete book with ID 36.<br>
+    21. Delete books priced under 300.<br>
+    22. Update the price of book with ID 37 to 520.<br>
+    23. Update books with "design" in the name, changing employee ID to 1.<br>
+    <a href="example/chp8/sql解答.txt" target="_blank">SQL Practice Solutions</a><br>
+  </td>
+</tr>
+</table>
+    
+  </div>
+</div>
+
+
+
+  
+<p style="text-indent: 50px;">
+  <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-29" role="button" aria-expanded="false" aria-controls="collapseExample-29">
+    Chp29. Practical Example 9: Learning the Three-layer Architecture of an E-commerce Website - Passing Data Between Frontend (HTML), Backend (PHP), and Database (MySQL)
+  </a>
+</p>
+<div class="collapse" id="collapseExample-29">
+  <div class="card card-body">    
+    <p style="text-indent: 60px;"><a href="http://acupun.byethost7.com/hw9/" target="_blank">29-1. Example Results - 1</a></p>
+    <p style="text-indent: 60px;"><a href="http://acupun.byethost7.com/hw9-server/" target="_blank">29-1. Example Results - 2</a></p>
+
+    <p style="text-indent: 60px;"><a href="homework/hw9/homework-9.htm" target="_blank">29-2. Example 9 Assignment</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw2/client-sever-mysql.jpg" target="_blank">29-3. Three-layer Structure Diagram of an E-commerce Website</a></p>
+    <hr>
+    <p style="text-indent: 60px;"><a href="https://bootstrap5.hexschool.com/docs/5.1/getting-started/introduction/" target="_blank">☎Bootstrap 5 Official Site: Build an RWD Website Using the Beginner Template</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw9/web9-1.txt" target="_blank">HTML Code for Question 1</a></p>
+    <p style="text-indent: 60px;"><a href="https://acupun.site/lecture/php/txt/chp4/4-1php.txt" target="_blank">PHP Code for Question 1</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw9/web9-1.txt" target="_blank">HTML Code for Question 2</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw9/web9-2.php.txt" target="_blank">PHP Code for Question 2</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw9/web9-3.php.txt" target="_blank">PHP Code for Question 3</a></p>
+    <p style="text-indent: 60px;"><a href="https://acupun.site/lecture/php/mysql/ch09.rar" target="_blank">Download Database (ch09.sql)</a></p>
+    <p style="text-indent: 60px;"><a href="https://www.w3schools.com/php/php_mysql_connect.asp" target="_blank">Copy Code: Test MySQL Connection (W3Schools)</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw9/connect-free-mySQL.txt" target="_blank">☎ Cloud MySQL Connection Info</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw9/show-all-php.txt" target="_blank">☎ Copy PHP Code: Query All Data</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw9/select-namel-php.txt" target="_blank">Copy Code: Query by Book Name</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw9/select-keyword-php.txt" target="_blank">Copy Code: Query by Keyword</a></p>
+  </div>
+</div>  
+
+
+  
+<p style="text-indent: 50px;">
+  <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-30" role="button" aria-expanded="false" aria-controls="collapseExample-30">
+    Chp30. Practical Example 10: Backend Web Development with Database Integration (2) - PHP + MySQL
+  </a>
+</p>
+<div class="collapse" id="collapseExample-30">
+  <div class="card card-body">    
+    <p style="text-indent: 60px;"><a href="http://acupun.byethost7.com/hw10-server/" target="_blank">30-1. Example Results</a></p>
+
+    <p style="text-indent: 60px;"><a href="homework/hw10/homework-10.htm" target="_blank">30-2. Example 10 Assignment</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw2/client-sever-mysql.jpg" target="_blank">30-5. Frontend and Backend Structure Diagram of an E-commerce Website</a></p>
+    <hr>
+    <p style="text-indent: 60px;"><a href="https://bootstrap5.hexschool.com/docs/5.1/getting-started/introduction/" target="_blank">Bootstrap 5 Official Site: Build an RWD Website Using the Beginner Template</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw10/index.html.txt.txt"_blank">HTML Code for Index Page</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw9/show-all-php.txt" target="_blank">Copy PHP Code: Query All Records (Method 1)</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw10/p1.php.txt.txt" target="_blank">☎ PHP Code for Question 1: Detecting Button Clicks</a></p>
+
+    <p style="text-indent: 60px;"><a href="homework/hw10/form-inline.txt" target="_blank">☎ Bootstrap 5: How to Align Multiple Components (input-text, button...) in a Single Row Within a Form</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw10/a2.html.txt.txt" target="_blank">HTML Code for Question 2</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw10/p2.php.txt" target="_blank">PHP Code for Question 2</a></p>
+
+    <p style="text-indent: 60px;"><a href="homework/hw9/connect-free-mySQL.txt" target="_blank">Cloud MySQL Server Connection Info</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw10/php-sql-string-2-method.txt" target="_blank">Two Methods to Combine SQL Queries and PHP Variables</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw9/show-all-php.txt" target="_blank">☎ Copy PHP Template: Query All (Method 1: .variable.)</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw10/show-all-method-2-php.txt" target="_blank">☎ Copy PHP Template: Query All (Method 2: {variable})</a></p>
+
+    <p style="text-indent: 60px;"><a href="homework/hw10/php-add.txt" target="_blank">☎ Copy PHP Template: Insert Data (INSERT INTO)</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw10/php-update.txt" target="_blank">☎ Copy PHP Template: Update Data (UPDATE)</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw10/php-delete.txt" target="_blank">☎ Copy PHP Template: Delete Data (DELETE FROM)</a></p>
+    <p style="text-indent: 60px;"><a href="homework/hw10/p5-php.txt" target="_blank">PHP Code for Question 5 (Update)</a></p>
+  </div>
+</div>  
+
+
+
+
+  
+<p style="text-indent: 50px;">
+  <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-31" role="button" aria-expanded="false" aria-controls="collapseExample-31">
+    Chp31. Practical Example 11: Pre-Midterm Practice Example
+  </a>
+</p>
+<div class="collapse" id="collapseExample-31">
+  <div class="card card-body">    
+    <p style="text-indent: 60px;"><a href="https://drive.google.com/file/d/1UAm3YdosaCWTy717VyAvbih-oCfQm0Uy/view?usp=sharing" target="_blank">11-1. Demonstration Video of the Final Website</a></p>
+    <p style="text-indent: 60px;"><a href="https://acupun.site/lecture/cmedia/homework/hw11/homework-11.htm" target="_blank">11-2. Example 11 Assignment</a></p>
+  </div>
+</div>  
+
+
+
+
+  
+<p style="text-indent: 50px;">
+  <a class="text-danger" data-bs-toggle="collapse" href="#collapseExample-32" role="button" aria-expanded="false" aria-controls="collapseExample-32">
+    Chp32. Practical Example 12: Pre-Final Exam Practice Example
+  </a>
+</p>
+<div class="collapse" id="collapseExample-32">
+  <div class="card card-body">    
+    <p style="text-indent: 60px;"><a href="https://drive.google.com/file/d/11305m6VwbMbNh9fL0M0Zr6IBxPnAv0wX/view?usp=sharing" target="_blank">12-1. Demonstration Video of the Final Website</a></p>
+    <p style="text-indent: 60px;"><a href="https://acupun.site/lecture/cmedia/homework/hw12/homework-12.htm" target="_blank">12-2. Example 12 Assignment</a></p>
+  </div>
+</div>  
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+</td>
+            </tr>
+
+</table>
+<p id="chp0"></p>
+<p></p>
+<table class="table table-bordered table-condensed"  bordercolor="#dddddd" width="100%">   
+  <tr bgcolor="#f0f0f0">
+    <td colspan="6">資源</td>
+  </tr>
+  <tr bgcolor="#f0f0f0">
+    <td bgcolor="#FFFFFF">上課工具</td>
+    <td class="style11"><a href="https://docs.google.com/document/d/1EmyRVjYKVXTCR9QvB2ax1i2UsNAecJCH/edit?usp=sharing&ouid=112989736218524454297&rtpof=true&sd=true" target="_blank">線上黑板(
+  Online blackboard)</a></td>
+   <td><a href="https://meet.google.com/ccy-zwaf-mfi" target="_blank">廣播教學</a></td>
+    <td><a href="https://www.youtube.com/watch?v=VbpXtJf8JsI&list=PLfsmXlCfpMJXI1811o5qSjsY4OJ8C0T5o" target="_blank">上課錄影影片</a></td>
+    <td><a href="https://drive.google.com/file/d/1BfTA4ETiDDXP-J3rxHuHGS3aVbLLJRFs/view?usp=sharing" target="_blank">Goole輸入法(Input:exe)</a></td>
+  <td></td>    
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF">證照考試：商用數據應用師</td>
+  <td><a href="certificate/商用數據應用師_無模組_中華企業資源規劃學會 (從中約抽70題)_.pdf" target="_blank">考試題庫 (從中約抽70題)</a></td>
+  <td><a href="https://www.cerps.org.tw/zh-TW/article/2022-03-07%2009:48:08/220307_030044" target="_blank">報名證照相關說明與方法</a></td>
+  <td><a href="">考試方式：100題單選題，每題1分，70分及格</a></td>
+  <td><a href="https://www.opentech.com.tw/#/bookInfo?ISBN=9786263282872" target="_blank">考試指定用書</a></td>
+  <td></td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF">數據集，資料集，dataset</td>
+  <td><a href="https://archive.ics.uci.edu/" target="_blank">UCI的各種資料集</a></td>
+  <td><a href="https://www.kaggle.com/datasets?fileType=csv" target="_blank">Kaggle的各種資料集</a></td>
+  <td><a href="">考試方式：100題單選題，每題1分，70分及格</a></td>
+  <td><a href="https://www.opentech.com.tw/#/bookInfo?ISBN=9786263282872" target="_blank">考試指定用書</a></td>
+  <td></td>
+</tr>
+
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF">上課參考教材</td>
+  <td><a href="https://www.books.com.tw/products/0010876198" target="_blank">書籍：跨領域學 Python：資料科學基礎養成</a></td>
+  <td><a href="https://www.books.com.tw/products/0010789569" target="_blank">書籍：Python 資料科學與人工智慧應用實務</a></td>
+  <td><a href="https://www.books.com.tw/products/0010872905" target="_blank">書籍：一行指令學Python：用機器學習掌握人工智慧</a></td>
+  <td></td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF"></td>
+  <td><a href="https://www.books.com.tw/products/0010921275?loc=M_br_r0vq68ygz_D_2aabd0_B_1" target="_blank">書籍：用Pandas掌握商務大數據分析</a></td>
+  <td><a href="https://www.books.com.tw/products/CN11723157" target="_blank">進階書籍：Python商業數據分析：零售和電子商務案例</a></td>
+  <td><a href="https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html" target="_blank">pandas官網(英文)</a></td>
+  <td><a href="https://www.w3schools.com/python/pandas/default.asp" target="_blank">w3schools的pandas教學(英文)</a></td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF">pandas參考教材</td>
+  <td><a href="https://www.w3cschool.cn/hyspo/" target="_blank">w3Cschool的pandas教學(中文)</a></td>
+  <td><a href="https://steam.oxxostudio.tw/category/python/index.html" target="_blank">Steam教學網-python</a></td>
+  <td><a href="https://www.gairuo.com/p/pandas-tutorial" target="_blank">蓋若pandas 教程</a></td>
+  <td><a href="https://ithelp.ithome.com.tw/articles/10193421" target="_blank">pandas的df的操作函數</a></td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF">colab繪圖如何顯示中文，方法1</td>
+  <td colspan="4">    
+    ☎#colab顯示繁體中文，方法1
+    問題：matplotlib繪圖，會發生中文無法顯示的問題<br> 
+    參考：<a href="https://puerdon.github.io/%E5%9C%A8Colab%E4%B8%8A%E8%AE%93matplotlib%E9%A1%AF%E7%A4%BA%E4%B8%AD%E6%96%87-2020-12%E6%9B%B4%E6%96%B0/" target="_blank">colab繪圖如何顯示中文</a><br>
+    ☎<a href="https://acupun.site/lecture/predict/example/resource/1-colab-plot-chinese.txt" target="_blank">程式碼</a>：<br> 
+
+#--------------------------------<br>
+# colab繪圖顯示繁體中文<br>
+#--------------------------------<br>
+import matplotlib<br>
+    # 先下載台北黑體字型<br> 
+    !wget -O taipei_sans_tc_beta.ttf https://drive.google.com/uc?id=1eGAsTN1HBpJAkeVM57_C7ccp7hbgSz3_&export=download
+    import matplotlib<br> 
+    # 新增字體<br> 
+    matplotlib.font_manager.fontManager.addfont('taipei_sans_tc_beta.ttf')<br> 
+    # 將 font-family 設為 Taipei Sans TC Beta<br> 
+    # 設定完後，之後的圖表都可以顯示中文了<br> 
+    matplotlib.rc('font', family='Taipei Sans TC Beta')<br>    
+  </td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF">colab繪圖如何顯示中文，方法2</td>
+  <td colspan="4">    
+    ☎#colab顯示繁體中文，方法2
+    ☎<a href="example/resource/8-colab-plot-chinese.txt" target="_blank">程式碼</a>：<br> 
+
+    #--------------------------------------<br> 
+    # 課本的中文處理<br> 
+    #--------------------------------------<br> 
+    import matplotlib as mpl<br> 
+    import matplotlib.font_manager as fm<br> 
+    <br> 
+    !wget "https://www.wfonts.com/download/data/2014/06/01/simhei/simhei.zip"<br> 
+    !unzip "simhei.zip"<br> 
+    !rm "simhei.zip"<br> 
+    <br> 
+    fm.fontManager.addfont('SimHei.ttf')<br> 
+    mpl.rc('font', family='SimHei')<br> 
+    # 這一行能讓字體變得清晰<br> 
+    %config InlineBackend.figure_format = 'retina'<br>    
+  </td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF">windows的spyder繪圖如何顯示中文</td>
+  <td colspan="4">
+    ☎解決：windows的spyder，會發生中文無法顯示的問題<br> 
+    參考：<a href="https://ithelp.ithome.com.tw/questions/10193102" target="_blank">windows繪圖如何顯示中文</a><br>
+    ☎<a href="https://acupun.site/lecture/predict/example/resource/1-colab-plot-chinese.txt" target="_blank">程式碼</a>：<br> 
+    
+    #在windows 10 的spyder，繪圖如何顯示中文<br> 
+    #使用微軟正黑體（Microsoft JhengHei）<br> 
+    plt.rcParams['font.sans-serif'] = ['Microsoft JhengHei']<br> 
+    <br> 
+    #有些中文字體在碰到負號時，會無法正常顯示，尤其是內建的字體，加入以下語法就可以解決『負號無法顯示』問題<br> 
+    plt.rcParams['axes.unicode_minus'] = False<br> 
+  </td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF">在colab如何更改目錄</td>
+  <td colspan="4">
+    ☎解決：在colab如何更改目錄的問題<br> 
+    ☎<a href="example/resource/3-chdir.txt" target="_blank">程式碼</a>：<br> 
+    
+    import os<br>
+    os.chdir("/content/drive/MyDrive/Colab Notebooks")<br>
+    !ls<br> 
+  </td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF">解決簡體字csv造成亂碼</td>
+  <td colspan="4">
+    ☎解決簡體字csv，打開後都是亂碼的問題：<br>
+    <br>
+    第2 種方式：<br>
+    （1）先執行Excel 軟體，新增空白活頁簿，<br>
+    （2）然後在上方功能選項中點選「資料」➜「取得外部資料」➜ 「從文字檔」 → 「選擇csv文件」，<br>
+    選擇你的CSV 檔，<br>
+    在「匯入字串精靈」對話框中選擇檔案原始格式65001:Unicode(UTF-8) 即可。<br>
+    <br>
+    若是utf-8還是有亂碼，再改成<br>
+    在「匯入字串精靈」對話框中選擇檔案原始格式54986:簡體中文(GB18080) 即可。<br>
+    <br>
+    （3）打勾：我的資料有標題<br>
+    （4）分隔符哈：逗號<br>
+<br>    
+  </td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF">程式模板</td>
+  <td colspan="4">
+    
+    <a href="example/resource/6-excel-plot.txt" class="red" target="_blank">
+      ☎存入excel檔案，並且畫柱狀圖</a>
+      <br>    
+  </td>
+</tr>
+
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF">程式模板chp8-6.樞紐分析表的必要指令：展開</td>
+  <td colspan="4">
+    
+    <a href="example/resource/7-excel-manySheet.txt" class="red" target="_blank">
+      ☎輸出excel檔案：建立3個資料表sheet（英文成績，數學成績，中文成績）</a>
+      <br>    
+  </td>
+</tr>
+
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF">打開chrome網頁線上英文字典功能</td>
+  <td colspan="4">
+    ☎如何安裝google chrome的網頁線上英文字典工具：<br>
+    ➜google chrome的右上角工具➜更多工具➜擴充功能<br>
+    ➜左上角主選單➜開啟chrome線上應用程式商店<br>
+    ➜勾選：google製作，免費<br>
+    ➜搜尋：google dictionary➜安裝<br>
+    ➜到chrome右上擴充功能➜點按google dictionary的『詳細資料』➜擴充功能選項<br>
+    ➜my language=chinese<br>
+    ➜打勾2個：Pop-up definitions:<br>
+    （1）反白單字翻譯：Display pop-up when I double-click a word<br>
+    （2）ctrl+拖曵整段翻譯： Display pop-up when I select a word or phrase<br>
+    <br>    
+  </td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF">上課用excel</td>
+  <td><a href="example/resource/scoreChi.xlsx" target="_blank">學生成績-chinese</a></td>
+  <td><a href="example/resource/scoreChiNAN.xlsx" target="_blank">學生成績-有缺值-chinese</a></td>
+  <td><a href="example/resource/scoreChi-his-phy.xlsx" target="_blank">學生成績-物理歷史-chinese</a></td>
+  <td><a href="example/resource/scoreChi-amy-simon.xlsx" target="_blank">學生成績-amy-simon-chinese</a></td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF"></td>
+  <td><a href="example/resource/scoreChi-date.xlsx" target="_blank">學生成績-生日-chinese</a></td>
+  <td><a href="example/resource/scoreChi-group.xlsx" target="_blank">學生成績-分組-chinese</a></td>
+  <td><a href="example/resource/personnel.xlsx" target="_blank">人事資料-chinese</a></td>
+  <td><a href="example/resource/salary-gender.xlsx" target="_blank">男女時薪-chinese</a></td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF"></td>
+  <td><a href="example/resource/scoreEng.xlsx" target="_blank">學生成績-english</a></td>
+  <td><a href="example/resource/scoreEngNAN.xlsx" target="_blank">學生成績-有缺值-english</a></td>
+  <td><a href="example/resource/scoreEng-group.xlsx" target="_blank">學生成績-分組-english</a></td>
+  <td><a href="example/resource/books.xlsx" target="_blank">圖書資料-chinese</a></td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF">上課用csv</td>
+  <td><a href="example/resource/tips-chi.csv" target="_blank">小費tips-chinese</a></td>
+  <td><a href="example/resource/tips.csv" target="_blank">小費tips-english</a></td>
+  <td><a href="example/resource/scoreChi.csv" target="_blank">學生成績-chinese</a></td>
+  <td><a href="example/resource/scoreEng.csv" target="_blank">學生成績-english</a></td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF"></td>
+  <td><a href="example/resource/books.csv" target="_blank">圖書資料-chinese</a></td>
+  <td><a href="example/resource/tips.csv" target="_blank"></a></td>
+  <td><a href="example/resource/scoreChi.csv" target="_blank"></a></td>
+  <td><a href="example/resource/scoreEng.csv" target="_blank"></a></td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF">上課用其它資料庫</td>
+  <td><a href="example/resource/ch09.rar" target="_blank">mySQL-ch09</a></td>
+  <td><a href="example/resource/student.rar" target="_blank">SQLite-student</a></td>
+  <td><a href="example/resource/score2.json" target="_blank">json-學生成績</a></td>
+  <td><a href="example/resource/personnel.xml" target="_blank">xml-personnel</a></td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF">課本商業範例資料庫</td>
+  <td><a href="example/resource/sales.csv" target="_blank">商業銷售分析-sales csv</a></td>
+  <td><a href="example/resource/students.xls" target="_blank">系所生源分析-excel</a></td>
+  <td><a href="example/resource/stock.xlsx" target="_blank">股市分析-台積電聯發科股票線型-excel</a></td>
+  <td><a href="example/resource/ma_res.xlsx" target="_blank">問卷資料分析-excel</a></td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF">pandas參考教材</td>
+  <td><a href="https://www.pypandas.cn/docs/getting_started/10min.html#%E7%94%9F%E6%88%90%E5%AF%B9%E8%B1%A1" target="_blank">十分鐘入門 Pandas(英文)</a></td>
+  <td><a href="https://ericfu.me/10-minutes-to-pandas/" target="_blank">十分鐘入門 Pandas(英文)</a></td>
+  <td><a href="https://hackmd.io/@wiimax/10-minutes-to-pandas" target="_blank">10分鐘的Pandas入門-繁中版</a></td>
+  <td><a href="https://github.com/iTenki/10-Minutes-to-pandas" target="_blank">十分鐘入門 Pandas(中文)</a></td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF">pandas參考教材</td>
+  <td><a href="https://pandas.liuzaoqi.com/doc/chapter0/10%E5%88%86%E9%92%9F%E5%85%A5%E9%97%A8pandas.html" target="_blank">pandas官網全部章節翻譯</a></td>
+  <td><a href="https://finthon.com/data-processing/pandas/" target="_blank">pandas官網全部章節翻譯</a></td>
+  <td><a href="https://www.gairuo.com/p/pandas-tutorial" target="_blank"></a></td>
+  <td><a href="https://ithelp.ithome.com.tw/articles/10193421" target="_blank"></a></td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF">pandas參考教材(英文)</td>
+  <td><a href="https://www.kaggle.com/code/residentmario/indexing-selecting-assigning" target="_blank">kaggle pandas教學</a></td>
+  <td><a href="https://www.dataschool.io/python-pandas-tips-and-tricks/?fbclid=IwAR03zbqYE1p5Rqs1R1jMfpS_hrYjwTwi1Cls4HYy4Vqj_W_oLf62JkKbkZ4" target="_blank">100 pandas tricks to save you time and energy</a></td>
+  <td><a href="https://pandas.pydata.org/pandas-docs/version/0.22/10min.html" target="_blank">官網0.22.0:pandas documentation</a></td>
+  <td><a href="https://ithelp.ithome.com.tw/articles/10193421" target="_blank"></a></td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF">pandas參考教材(中文)</td>
+  <td><a href="https://medium.com/datainpoint/pandas101-369caec9870" target="_blank">Pandas 101：資料分析的基石</a></td>
+  <td><a href="https://leemeng.tw/practical-pandas-tutorial-for-aspiring-data-scientists.html" target="_blank">資料科學家的pandas 實戰手冊：掌握40 個實用</a></td>
+  <td><a href="https://blog.techbridge.cc/2020/09/21/python-pandas-zen-tutorial/" target="_blank">簡明 Python Pandas 入門教學</a></td>
+  <td><a href="https://www.learncodewithmike.com/2020/11/python-pandas-dataframe-tutorial.html" target="_blank">資料分析必懂的Pandas DataFrame處理雙維度資料方法</a></td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF">pandas速查手冊</td>
+  <td><a href="https://www.gairuo.com/p/pandas-sheet" target="_blank">pandas 速查手册 - 盖若</a></td>
+  <td><a href="https://zhuanlan.zhihu.com/p/25630700" target="_blank">Pandas速查手冊中文版 - 知乎專欄</a></td>
+  <td><a href="https://cloud.tencent.com/developer/article/1094110" target="_blank">Pandas速查手冊中文版- 騰訊雲開發者社區</a></td>
+  <td><a href="https://www.finlab.tw/pandas-%E9%AD%94%E6%B3%95%E7%AD%86%E8%A8%981-%E5%B8%B8%E7%94%A8%E6%8B%9B%E5%BC%8F%E7%B8%BD%E8%A6%BD/" target="_blank"></a></td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF">pandas速查手冊</td>
+  <td><a href="https://blog.csdn.net/brucewong0516/article/details/81782312" target="_blank">Pandas中DataFrame基本函數整理（全）</a></td>
+  <td><a href="https://www.finlab.tw/pandas-%E9%AD%94%E6%B3%95%E7%AD%86%E8%A8%981-%E5%B8%B8%E7%94%A8%E6%8B%9B%E5%BC%8F%E7%B8%BD%E8%A6%BD/" target="_blank">Pandas 魔法筆記(1)-常用招式總覽</a></td>
+  <td><a href="https://ithelp.ithome.com.tw/articles/10193421" target="_blank">pandas的df的操作函數</a></td>
+  <td><a href="https://cloud.tencent.com/developer/article/1094110" target="_blank"></a></td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF">資料集dataset</td>
+  <td><a href="https://raw.githubusercontent.com/pandas-dev/pandas/main/pandas/tests/io/data/csv/tips.csv" target="_blank">小費資料集Tips Dataset(csv)</a></td>
+  <td><a href="https://www.kaggle.com/code/sanjanabasu/tips-dataset" target="_blank">kaggle小費資料集範例A Waiter's Tips example</a></td>
+  <td><a href="https://blog.csdn.net/qq_44173974/article/details/116532127" target="_blank">【視覺化】小費（tips）資料集分析</a></td>
+  <td><a href="https://itw01.com/QFN38EZ.html" target="_blank">小費（tips）資料集提取和檢視相應資料 </a></td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF">SQL語法</td>
+  <td><a href="http://cc.cust.edu.tw/~ccchen/doc/db_06.pdf" target="_blank">SQL語法教程</a></td>
+  <td><a href="https://pandas.pydata.org/docs/getting_started/comparison/comparison_with_sql.html" target="_blank">pandas vs SQL</a></td>
+  <td><a href="http://cc.cust.edu.tw/~ccchen/doc/db_06.pdf" target="_blank"></a></td>
+  <td><a href="https://pandas.pydata.org/docs/getting_started/comparison/comparison_with_sql.html" target="_blank"></a></td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF">資料分析4大模組（runoob)</td>
+  <td><a href="https://www.runoob.com/numpy/numpy-tutorial.html" target="_blank">numpy</a></td>
+  <td><a href="https://www.runoob.com/pandas/pandas-tutorial.html" target="_blank">pandas</a></td>
+  <td><a href="https://www.runoob.com/w3cnote/matplotlib-tutorial.html" target="_blank">matplotlib</a></td>
+  <td><a href="https://www.runoob.com/scipy/scipy-tutorial.html" target="_blank">scipy</a></td>
+</tr>
+<tr bgcolor="#f0f0f0">
+<td bgcolor="#FFFFFF"></td>
+<td><a href="http://www.w3capi.com/cms/content/id/106/cid/27.html" target="_blank">w3c、w3school、w3cschool、runoob、w3capi比較</a></td>
+<td><a href="https://www.similarweb.com/zh/website/runoob.com/#keywords" target="_blank">runoob流量監控儀表板</a></td>
+<td><a href="https://www.w3schools.com/python/" target="_blank"></a></td>
+<td><a href="https://www.w3school.com.cn/python/index.asp" target="_blank"></a></td>
+</tr>
+<tr bgcolor="#f0f0f0">
+  <td bgcolor="#FFFFFF">w3school vs runoob</td>
+  <td colspan="5">
+    1.w3school中文版是直接google翻譯英文版<br>
+    2.runoob.com翻譯自英文版w3schools，但重新排版<br>
+    3.runoob = run + noob(菜鳥，小白)<br>
+    4.runoob是python，html，javascript中文版最好的教學網<br>
+    
+  </td>
+</tr>
+
+
+  <tr bgcolor="#f0f0f0">
+      <td bgcolor="#FFFFFF">官網</td>
+      <td class="style11"><a href="https://www.python.org/downloads/windows/" target="_blank">python官網</a></td>
+      <td><a href="https://code.visualstudio.com/" target="_blank">vscode官網</a></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>        
+  </tr>
+  <tr bgcolor="#f0f0f0">
+      <td bgcolor="#FFFFFF">python 教學網站</td>
+      <td class="style11"><a href="https://docs.python.org/zh-tw/3/tutorial/index.html" target="_blank">python 3(官網手冊中文)</a></td>
+      <td class="style11"><a href="https://www.twcode01.com/python3/python3-tutorial.html" target="_blank">python 3教學(中文)</a></td>
+      <td class="style11"><a href="https://www.runoob.com/python3/python3-tutorial.html" target="_blank">python 3教學(中文)</a></td>
+      <td class="style11"><a href="https://kopu.chat/%e4%b8%80%e5%b0%8f%e6%99%82python%e5%85%a5%e9%96%80-part-1/" target="_blank">簡易1小時教學</a></td>
+  </tr>
+  <tr bgcolor="#f0f0f0">
+    <td bgcolor="#FFFFFF"></td>
+       <td><a href="https://www.w3schools.com/python/" target="_blank">w3school(英文版)</a></td>
+       <td>&nbsp;</td>  
+       <td>&nbsp;</td>
+       <td>&nbsp;</td>  
+  </tr>
+  <tr bgcolor="#f0f0f0">
+      <td bgcolor="#FFFFFF">線上執行python online</td>
+      <td colspan="5">
+        <p><a href="https://www.python.org/shell/" target="_blank">https://www.python.org/shell/（建議用這個）</a></p>
+        <p><a href="https://repl.it/languages/python3" target="_blank">https://repl.it/languages/python3</a></p>
+<br>
+        <p><a href="https://www.onlinegdb.com/online_python_compiler" target="_blank">https://www.onlinegdb.com/online_python_compiler</a></p>
+        <p><a href="https://www.tutorialspoint.com/execute_python_online.php" target="_blank">https://www.tutorialspoint.com/execute_python_online.php</a></p>
+      </td>
+  </tr>
+
+  <tr bgcolor="#f0f0f0">
+      <td bgcolor="#FFFFFF">用Anacond寫python(*建議使用)</td>
+      <td colspan="5">
+ <p><a href="https://www.anaconda.com/products/individual" target="_blank">到Anacond官網下載安裝</a></p>
+      </td>
+  </tr>
+
+</table>
+
+
+
+
+</div>
+<!-- Back to top button -->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+  </body>
+</html>
